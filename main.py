@@ -36,7 +36,6 @@ evens = _.filter([1, 2, 3, 4, 5, 6], lambda x: x % 2 == 0)
 
 evens = _.map([1, 2, 3, 4, 5, 6], lambda x: x*2)
 
-
 evens = _.find([1, 2, 3, 4, 5, 6], lambda x: x>4)
 
 evens = _.reject([1, 2, 3, 4, 5, 6], lambda x: x % 2 == 0)
